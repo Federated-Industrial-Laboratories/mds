@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "urn:metalheart:mds:source:1",
+  "type":"object", "additionalProperties":false,
+  "required":["schemaVersion","version","revision","files"],
+  "properties": {
+    "schemaVersion":{"const":1}, "version":{"type":"string","minLength":1},
+    "revision":{"type":"string","pattern":"^[a-f0-9]{40}$"},
+    "tag":{"type":"string"},
+    "files":{"type":"object","additionalProperties":{"type":"string","pattern":"^[a-f0-9]{64}$"}},
+    "proof":{"type":"object","additionalProperties":false,"required":["commit","trees"],"properties":{"commit":{"type":"string"},"trees":{"type":"object","additionalProperties":{"type":"string"}}}}
+  }
+}

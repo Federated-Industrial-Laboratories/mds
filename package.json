@@ -1,0 +1,59 @@
+{
+  "name": "@metalheart/mds",
+  "version": "0.1.0",
+  "description": "Metalheart Documentation Style: portable static manuals, themes and release workflows.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "repository": {"type":"git","url":"https://github.com/Federated-Industrial-Laboratories/mds.git"},
+  "bugs": {"url":"https://github.com/Federated-Industrial-Laboratories/mds/issues"},
+  "engines": {
+    "node": "^22.0.0 || ^24.0.0"
+  },
+  "bin": {
+    "mds": "bin/mds.mjs"
+  },
+  "exports": {
+    ".": "./src/index.mjs",
+    "./themes": "./themes/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin",
+    "src",
+    "schemas",
+    "themes",
+    "assets",
+    "skills",
+    "examples/starter/mds.config.json",
+    "examples/starter/README.md",
+    "examples/starter/content",
+    "examples/starter/gitignore",
+    "examples/instructions",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "CODE_OF_CONDUCT.md"
+  ],
+  "scripts": {
+    "build": "node bin/mds.mjs build",
+    "check": "node bin/mds.mjs check",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "github-slugger": "2.0.0",
+    "htmlparser2": "12.0.0",
+    "markdown-it": "15.0.3",
+    "minisearch": "7.2.0",
+    "sanitize-html": "2.18.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "playwright": "1.63.0"
+  }
+}

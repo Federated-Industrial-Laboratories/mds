@@ -1,0 +1,10 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- State the licence, development status, runtime and output without release claims. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 28" role="img" aria-label="Apache-2.0, version 0.1.0 candidate, Node.js 22 or 24, static HTML">
+  <g font-family="Arial,Helvetica,sans-serif" font-size="13" text-anchor="middle">
+    <path d="M0 0h190v28H0zM198 0h212v28H198zM418 0h174v28H418zM600 0h200v28H600z" fill="#354c60"/>
+    <path d="M72 0h118v28H72zM270 0h140v28H270zM490 0h102v28H490zM672 0h128v28H672z" fill="#dceaf5"/>
+    <g fill="#fff"><text x="36" y="18">Licence</text><text x="234" y="18">Version</text><text x="454" y="18">Node.js</text><text x="636" y="18">Output</text></g>
+    <g fill="#173e5d"><text x="131" y="18">Apache-2.0</text><text x="340" y="18">0.1.0 candidate</text><text x="541" y="18">22 / 24</text><text x="736" y="18">Static HTML</text></g>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "id": "example-docs",
+    "title": "Example documentation",
+    "description": "A small documentation site built with Metalheart Documentation Style.",
+    "language": "en-GB",
+    "version": "0.1.0",
+    "channel": "preview",
+    "indexable": false
+  },
+  "paths": {
+    "basePath": "/",
+    "docsPath": "docs/",
+    "output": "_site",
+    "metadata": ".mds/build.json"
+  },
+  "source": {
+    "type": "local",
+    "root": "content"
+  },
+  "navigation": [
+    {
+      "title": "Guide",
+      "pages": [
+        { "source": "index.md", "slug": "", "label": "Introduction" },
+        { "source": "first-task.md", "slug": "first-task", "label": "First task" }
+      ]
+    }
+  ],
+  "appearance": {
+    "themes": ["cobalt", "violet"],
+    "palette": "neutral",
+    "mode": "system",
+    "finish": "metalheart",
+    "typography": "standard",
+    "contrast": "system"
+  },
+  "markdown": {
+    "html": false,
+    "stripRepositoryChrome": false
+  }
+}

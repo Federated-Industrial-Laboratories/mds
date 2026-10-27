@@ -1,0 +1,24 @@
+name: Report a defect
+description: Describe an MDS behaviour that does not match its documented contract.
+body:
+  - type: textarea
+    id: behaviour
+    attributes:
+      label: Expected and observed behaviour
+      description: State the reader or maintainer workflow that fails.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Small reproduction
+      description: Include commands and a minimal configuration. Remove private manuals, credentials and local machine paths.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions and environment
+      description: MDS, Node, operating system and browser where relevant.
+    validations:
+      required: true

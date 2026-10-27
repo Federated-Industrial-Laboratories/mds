@@ -1,0 +1,15 @@
+name: Propose a change
+description: Describe a documentation workflow that MDS could support better.
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow and current limitation
+      description: Explain who needs the behaviour and what currently prevents it.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Proposed outcome
+      description: Describe the observable result and relevant compatibility or accessibility needs.

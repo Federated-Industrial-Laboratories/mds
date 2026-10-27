@@ -1,0 +1,29 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Present MDS with the neutral blue and silver documentation identity. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 360" role="img" aria-labelledby="title description">
+  <title id="title">MDS - Metalheart Documentation Style</title>
+  <desc id="description">A blue three-bar mark and graphite wordmark on a silver engineering grid.</desc>
+  <defs>
+    <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#fdfefe"/><stop offset=".5" stop-color="#e0e7ed"/><stop offset="1" stop-color="#f7f9fc"/></linearGradient>
+    <linearGradient id="metal" x2="0" y2="1"><stop stop-color="#577f9e"/><stop offset=".5" stop-color="#174f7d"/><stop offset="1" stop-color="#102e48"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8da3b5" stroke-opacity=".2"/></pattern>
+  </defs>
+  <path fill="url(#surface)" stroke="#72889c" stroke-width="2" d="M1 1h1438v358H1z"/>
+  <path fill="url(#grid)" d="M1 1h1438v358H1z"/>
+  <path fill="#174f7d" d="M0 0h1440v10H0zM0 350h1440v10H0z"/>
+  <path fill="#71899e" d="M34 33h104l12 12H34zM1274 315h132v12h-120z"/>
+  <g fill="url(#metal)" stroke="#163650" stroke-width="2">
+    <path d="m98 126 38-18v149l-38 18z"/>
+    <path d="m150 99 38-18v176l-38 18z"/>
+    <path d="m202 146 38-18v129l-38 18z"/>
+  </g>
+  <path d="M286 82v194" stroke="#91a3b2"/>
+  <g font-family="Arial,Helvetica,sans-serif" fill="#1d2e3d">
+    <text x="330" y="183" font-size="114" font-weight="700" letter-spacing="3">MDS</text>
+    <text x="336" y="235" font-size="31" letter-spacing="1.2">Metalheart Documentation Style</text>
+  </g>
+  <g stroke="#8b9fae" fill="none" stroke-width="2">
+    <path d="M1110 92h224v174h-224zM1110 122h224M1170 122v144M1190 150h120M1190 170h96M1190 190h120M1190 210h80"/>
+    <path d="M1126 143h27M1126 163h27M1126 183h27" stroke="#174f7d"/>
+  </g>
+</svg>

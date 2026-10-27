@@ -1,0 +1,7 @@
+node_modules/
+_site/
+.mds/
+dist/
+*.tgz
+playwright-report/
+test-results/

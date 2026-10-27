@@ -1,0 +1,12 @@
+Metalheart Documentation Style
+
+MDS includes documentation rendering and search components adapted from the
+fil-site documentation system. Those components are distributed under the
+Apache License, Version 2.0.
+
+Third-party dependencies retain their own copyright and licence notices.
+The browser search bundle includes MiniSearch and its MIT licence.
+The optional Michroma display font retains its SIL Open Font License notice.
+
+Product manuals, marks, illustrations and other content supplied by a consuming
+project are not relicensed by MDS. Their original licences continue to apply.

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "id": "mds",
+    "title": "MDS",
+    "description": "Metalheart Documentation Style: reusable static manuals and reader-controlled appearance.",
+    "language": "en-GB",
+    "version": "0.1.0",
+    "channel": "preview",
+    "indexable": false
+  },
+  "paths": {
+    "basePath": "/",
+    "docsPath": "docs/",
+    "output": "_site",
+    "metadata": ".mds/build.json"
+  },
+  "source": {
+    "type": "local",
+    "root": "docs"
+  },
+  "navigation": [
+    {
+      "title": "Start and author",
+      "pages": [
+        {
+          "source": "index.md",
+          "slug": "",
+          "label": "Introduction"
+        },
+        {
+          "source": "getting-started.md",
+          "slug": "getting-started",
+          "label": "Getting started"
+        },
+        {
+          "source": "authoring.md",
+          "slug": "authoring",
+          "label": "Authoring"
+        },
+        {
+          "source": "configuration.md",
+          "slug": "configuration",
+          "label": "Configuration"
+        },
+        {
+          "source": "themes.md",
+          "slug": "themes",
+          "label": "Themes"
+        }
+      ]
+    },
+    {
+      "title": "Maintain and publish",
+      "pages": [
+        {
+          "source": "accessibility.md",
+          "slug": "accessibility",
+          "label": "Accessibility"
+        },
+        {
+          "source": "sources.md",
+          "slug": "sources",
+          "label": "Sources and snapshots"
+        },
+        {
+          "source": "releases.md",
+          "slug": "releases",
+          "label": "Release maintenance"
+        },
+        {
+          "source": "agents.md",
+          "slug": "agents",
+          "label": "Agent integration"
+        },
+        {
+          "source": "hosting.md",
+          "slug": "hosting",
+          "label": "Hosting"
+        },
+        {
+          "source": "migration.md",
+          "slug": "migration",
+          "label": "Migration"
+        },
+        {
+          "source": "troubleshooting.md",
+          "slug": "troubleshooting",
+          "label": "Troubleshooting"
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "pages": [
+        {
+          "source": "gallery.md",
+          "slug": "gallery",
+          "label": "Component gallery"
+        },
+        {
+          "source": "api.md",
+          "slug": "api",
+          "label": "API and commands"
+        }
+      ]
+    }
+  ],
+  "appearance": {
+    "themes": [
+      "fil",
+      "aotx",
+      "ficc",
+      "prism",
+      "cobalt",
+      "violet"
+    ],
+    "palette": "neutral",
+    "mode": "system",
+    "finish": "metalheart",
+    "typography": "standard",
+    "contrast": "system"
+  }
+}

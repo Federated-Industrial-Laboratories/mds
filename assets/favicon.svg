@@ -1,0 +1,7 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Neutral documentation mark for browser tabs. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#15212e"/>
+  <path d="M14 15h14v34H14zm22 0h14v34H36z" fill="#f7f9fc"/>
+  <path d="M28 22h8v27h-8z" fill="#80bfff"/>
+</svg>
